@@ -771,9 +771,9 @@ video {
   transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.scale-75 {
-  --tw-scale-x: .75;
-  --tw-scale-y: .75;
+.scale-50 {
+  --tw-scale-x: .5;
+  --tw-scale-y: .5;
 }
 
 .-translate-x-8 {
@@ -823,9 +823,17 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:scale-50 {
+    --tw-scale-x: .5;
+    --tw-scale-y: .5;
+  }
 }
 
 @media (min-width: 1024px) {
+  .lg\:scale-75 {
+    --tw-scale-x: .75;
+    --tw-scale-y: .75;
+  }
 }
 
 @media (min-width: 1280px) {
